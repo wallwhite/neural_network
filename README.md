@@ -1,50 +1,44 @@
-Russian translation for https://github.com/elyx0/rosenblattperceptronjs.git
 
-# Rosenblatt Perceptron [![Build Status][travis-image]][travis-url]
+# Перцептрон Розенблаттa  [![Build Status][travis-image]][travis-url]
 
-DEMO: https://rosenblattperceptron.herokuapp.com/
-### Training of a Perceptron in the Browser with Vue.js & SVG.
+DEMO: _______
+### Обучение перцептрона в браузере с использованием Vue.js & SVG.
 
-This is a demonstration of training a perceptron to categorize entities between friendly or not according
-to 2 features, teeth and size.
+Это демонстрация обучения персептрону, чтобы классифицировать сущности между дружественными или нет по двум критериям , зубов и размеров.
 
 <br/>
 
-## Screenshot
+## Скриншот
 
-### Training:
+### Обучение:
 ![Training](/media/perceptron.gif)
 
-## Install
+## Установка
 
 * **Note: requires a node version >= 6 and an npm version >= 3.**
 
-First, clone the repo via git:
+Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/elyx0/rosenblattperceptronjs.git your-project-name
+git clone https://github.com/wallwhite/neural_network
 ```
 
-And then install dependencies.
+Установите все зависимости.
 
 ```bash
 $ cd your-project-name && npm install
 ```
 
-:bulb: *you will need to run npm run build for publishing like for heroku*
+:bulb: *нужно будет запустить npm run build для публикации на heroku*
 
-## Run
+## Запуск
 
 ```bash
 $ npm run hot-server
 ```
-Then head to `localhost:8080` in the browser.
+Перейди по  `localhost:8080` в браузере.
 
-## Testing
+## Тестирование
 ```bash
 $ npm run test
 ```
-
-[travis-image]: https://travis-ci.org/Elyx0/rosenblattperceptronjs.svg?branch=master
-[travis-url]: https://travis-ci.org/Elyx0/rosenblattperceptronjs
-# neural_network
